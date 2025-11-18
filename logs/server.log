@@ -1,15 +1,15 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [283] using StatReload
-INFO:     Started server process [285]
+INFO:     Started reloader process [331] using StatReload
+INFO:     Started server process [333]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:53580 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:53592 - "GET /brands HTTP/1.1" 200 OK
-INFO:     172.20.0.1:53586 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:53592 - "GET /brands HTTP/1.1" 200 OK
-INFO:     172.20.0.1:53586 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35692 - "GET /brands HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35696 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35692 - "GET /brands HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35696 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50866 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:50856 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50852 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50856 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50852 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50852 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50856 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50856 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50852 - "GET /brands HTTP/1.1" 200 OK
