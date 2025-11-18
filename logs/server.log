@@ -1,23 +1,16 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [152] using StatReload
-INFO:     Started server process [154]
+INFO:     Started reloader process [236] using StatReload
+INFO:     Started server process [238]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:57014 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-WARNING:  StatReload detected changes in 'schemas.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [154]
-INFO:     Started server process [163]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-WARNING:  StatReload detected changes in 'main.py'. Reloading...
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [163]
-INFO:     Started server process [168]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
+INFO:     172.20.0.1:41228 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:41238 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41248 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41238 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41248 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36618 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36640 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36626 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36640 - "GET /brands HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36626 - "GET /deals?min_discount=20 HTTP/1.1" 200 OK
